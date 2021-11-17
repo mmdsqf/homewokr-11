@@ -18,37 +18,37 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, minmax(200px,auto));
     grid-template-areas: 
-                        "h m m"
-                        "h a n"
-                        "f f n";
+                        "Header Main Main"
+                        "Header Aside Nav"
+                        "Footer Footer Nav";
 }
 header{
     padding: 20px;
     background-color: rgb(75, 75, 75);
     margin: 0px 10px 10px 10px;
-    grid-area: h;
+    grid-area: Header;
 }
 main{
     padding: 20px;
     background-color: rgb(75, 75, 75);
     margin: 0px 10px 10px 10px;
-    grid-area: m;
+    grid-area: Main;
 }
 aside{
     padding: 20px;
     background-color: rgb(75, 75, 75);
     margin: 10px;
-    grid-area: a;
+    grid-area: Aside;
 }
 nav{
     padding: 20px;
     background-color:  rgb(75, 75, 75);
     margin: 10px;
-    grid-area: n;
+    grid-area: Nav;
 }
 footer{
     padding: 20px;
     background-color:  rgb(75, 75, 75);
     margin: 10px;
-    grid-area: f;
+    grid-area: Footer;
 }
