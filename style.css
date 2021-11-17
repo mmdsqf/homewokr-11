@@ -10,7 +10,7 @@
 .container{ 
     max-width: 960px;
     margin: 0px auto;
-    padding-top: 25px ;
+    padding-top: 25px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
     text-align: center;
@@ -25,30 +25,30 @@
 header{
     padding: 20px;
     background-color: rgb(75, 75, 75);
-    margin: 0px 10px 10px 10px;
+    margin: 5px;
     grid-area: Header;
 }
 main{
     padding: 20px;
     background-color: rgb(75, 75, 75);
-    margin: 0px 10px 10px 10px;
+    margin: 5px;
     grid-area: Main;
 }
 aside{
     padding: 20px;
     background-color: rgb(75, 75, 75);
-    margin: 10px;
+    margin: 5px;
     grid-area: Aside;
 }
 nav{
     padding: 20px;
     background-color:  rgb(75, 75, 75);
-    margin: 10px;
+    margin: 5px;
     grid-area: Nav;
 }
 footer{
     padding: 20px;
     background-color:  rgb(75, 75, 75);
-    margin: 10px;
+    margin: 5px;
     grid-area: Footer;
 }
